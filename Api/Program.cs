@@ -1,20 +1,4 @@
-using System.IdentityModel.Tokens.Jwt;
-using System.Net;
-using System.Security.Claims;
-using System.Text;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
-using minimal_api.dominio.dtos;
-using minimal_api.dominio.entidades;
-using minimal_api.dominio.Enuns;
-using minimal_api.dominio.ModelViews;
-using minimal_api.dominio.servicos;
-using minimal_api.infraestutura.DB;
-using minimal_api.infraestutura.Interfaces;
+
 
 #region Builder
 var builder = WebApplication.CreateBuilder(args);
